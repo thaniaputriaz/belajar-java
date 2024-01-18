@@ -10,10 +10,11 @@ public class Main {
         int harga[] = new int[10];
         int no, jumlah, total;
 
-        System.out.print("Masukkan Nama : ");
-        nama = input.nextLine();
-
+      
         while (pesanlagi.equalsIgnoreCase("Lagi")) {
+            System.out.print("Masukkan Nama : ");
+            nama = input.nextLine();
+
             System.out.println("Pilihan :");
             System.out.println("1. Nasi Goreng Rp.15.000.00");
             System.out.println("2. Mie Ayam Rp.10.000.00");
